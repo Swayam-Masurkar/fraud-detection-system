@@ -13,18 +13,18 @@ import os
 import joblib
 import matplotlib
 
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-from sklearn.metrics import (
+matplotlib.use("Agg")  # must be set before importing pyplot — no GUI backend in CI
+import matplotlib.pyplot as plt  # noqa: E402
+import pandas as pd  # noqa: E402
+import seaborn as sns  # noqa: E402
+from sklearn.metrics import (  # noqa: E402
     ConfusionMatrixDisplay,
     PrecisionRecallDisplay,
     RocCurveDisplay,
 )
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split  # noqa: E402
 
-from src.features import LABEL
+from src.features import LABEL  # noqa: E402
 
 try:
     import shap
