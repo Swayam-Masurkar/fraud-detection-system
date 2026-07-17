@@ -1,0 +1,24 @@
+# Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data & models — regenerate with `python src/generate_data.py`
+data/insurance_claims.csv
+data/image_folder/
+models/*.pkl
+models/metrics.json
+reports/figures/*.png
+
+# OS / editor
+.DS_Store
+.vscode/settings.json
+
+# Secrets
+.env
