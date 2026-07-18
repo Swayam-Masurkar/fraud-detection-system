@@ -1,3 +1,4 @@
+![CI](https://github.com/Swayam-Masurkar/fraud-detection-system/actions/workflows/ci.yml/badge.svg)
 # 🔍 AI-Based Fraud Detection System for Insurance Claims
 
 A multimodal machine learning system that scores insurance claims for fraud risk
@@ -27,6 +28,9 @@ that goes to manual review. The threshold is tunable at inference time
   <img src="reports/figures/roc_curve.png" width="32%">
   <img src="reports/figures/precision_recall_curve.png" width="32%">
   <img src="reports/figures/confusion_matrix.png" width="32%">
+</p>
+<p align="center">
+  <img src="reports/figures/shap_summary.png" width="60%">
 </p>
 
 ## Why this project
