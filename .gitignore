@@ -14,7 +14,7 @@ data/insurance_claims.csv
 data/image_folder/
 models/*.pkl
 models/metrics.json
-reports/figures/*.png
+
 
 # OS / editor
 .DS_Store
